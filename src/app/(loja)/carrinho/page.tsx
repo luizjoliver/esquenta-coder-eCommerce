@@ -8,7 +8,7 @@ import { useCarrinho } from '@/data/hooks/useCarrinho'
 
 export default function CarrinhoPagina() {
 
-  const {adicionar,itens,qntDeItens,remover} = useCarrinho()
+  const {adicionar,itens,remover} = useCarrinho()
 
 
   return (
